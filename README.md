@@ -3,13 +3,6 @@ Final project
 SE-2017
 Uskembaeva Aruzhan,Naziya Baisakalova
 1 Example
-This project is about ice cream delivery.
-In this example we used 3 patterns: template,strategy,decorator
-In decorator pattern,it shows what products do we have.
-Template pattern,about delivery (pick up or courier)
-Strategy pattern,we will try to implement a simple Shopping Cart where we have two payment strategies – using Credit Card or using PayPal.
-
-2nd example
 In this example we used 3 patterns: observer, adapter and state, that connected adapter and observer with each other.
 
 The Main class is the State class that starts runnibg our code.
@@ -39,3 +32,11 @@ Here we have 4 interfaces:
 2)Observer - Observer pattern, he is a parent of subscribers(clients), has a handleEvent() method
 3)Observed - Observer pattern, he is a parent of Menu Page(that control admins), can add, remove and notify Clients about changings in Menu
 4)Delivery - Adapter pattern, he is a parent of PickUpAdapter and Courier classes, has a delivery method.
+
+
+2nd example
+This project is about ice cream delivery.
+In this example we used 3 patterns: template,strategy,decorator,state, that connected template,strategy and decorator with each other
+In decorator pattern,it shows what products do we have.
+Template pattern,about delivery (pick up or courier)
+Strategy pattern,we will try to implement a simple Shopping Cart where we have two payment strategies – using Credit Card or using PayPal.
